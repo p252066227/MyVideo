@@ -14,16 +14,16 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         >
 
-        <!--<feicuiedu.com.videonews.ui.comments.TitleTextView-->
-            <!--android:id="@+id/tvTitle"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:textSize="@dimen/font_18"-->
-            <!--android:singleLine="true"-->
-            <!--android:gravity="center"-->
-            <!--android:ellipsize="marquee"-->
-            <!--android:marqueeRepeatLimit="marquee_forever"/>-->
+        <feicuiedu.com.videonews.ui.comments.TitleTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_18"
+            android:singleLine="true"
+            android:gravity="center"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"/>
     </android.support.v7.widget.Toolbar>
 
     <com.feicuiedu.videoplayer.part.SimpleVideoView
@@ -32,8 +32,8 @@
         android:layout_height="@dimen/size_300"
         android:background="@color/black"/>
 
-    <!--<feicuiedu.com.videonews.ui.comments.CommentsListView-->
-        <!--android:id="@+id/commentsListView"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"/>-->
+    <feicuiedu.com.videonews.ui.comments.CommentsListView
+        android:id="@+id/commentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>

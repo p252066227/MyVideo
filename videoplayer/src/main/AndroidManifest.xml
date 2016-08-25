@@ -9,8 +9,6 @@
         <activity
             android:name=".full.VideoViewActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".full.part.SimpleVideoView" />
-        <activity android:name=".part.SimpleVideoView"></activity>
     </application>
 
 </manifest>
